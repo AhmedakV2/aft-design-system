@@ -1,0 +1,21 @@
+{
+  "name": "aft-design-system",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.mjs",
+    "tokens:check": "node scripts/check-contrast.mjs",
+    "design:check": "node scripts/validate-design-rules.mjs",
+    "storybook": "pnpm --filter @aft/ui storybook",
+    "storybook:build": "pnpm --filter @aft/ui build-storybook",
+    "typecheck": "pnpm -r typecheck",
+    "check": "pnpm tokens:build && pnpm tokens:check && pnpm design:check && pnpm typecheck && pnpm storybook:build"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

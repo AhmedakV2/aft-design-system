@@ -1,0 +1,1 @@
+.root{display:inline-flex;align-items:center;gap:var(--space-1);font-size:11px;line-height:16px;font-weight:500}.root[data-tone="success"]{color:var(--status-success)}.root[data-tone="danger"]{color:var(--status-danger)}.root[data-tone="warning"]{color:var(--status-warning)}.root[data-tone="info"]{color:var(--status-info)}.root[data-tone="neutral"]{color:var(--text-tertiary)}

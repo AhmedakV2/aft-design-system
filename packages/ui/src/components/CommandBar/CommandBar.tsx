@@ -1,0 +1,2 @@
+import { Search } from "lucide-react"; import styles from "./CommandBar.module.css";
+export function CommandBar({placeholder="Ara veya komut çalıştır…",shortcut="Ctrl+K"}:{placeholder?:string;shortcut?:string}){return <button className={styles.root} type="button" aria-label="Komut paletini aç"><Search size={14}/><span className={styles.placeholder}>{placeholder}</span><kbd>{shortcut}</kbd></button>}

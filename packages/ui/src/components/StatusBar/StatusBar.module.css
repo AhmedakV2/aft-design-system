@@ -1,0 +1,1 @@
+.root{height:var(--size-statusbar);display:flex;align-items:center;justify-content:space-between;padding:0 var(--space-2);font-size:11px;line-height:16px;color:var(--text-tertiary)}

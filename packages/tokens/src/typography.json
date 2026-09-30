@@ -1,0 +1,74 @@
+{
+  "font": {
+    "sans": "Inter Variable",
+    "mono": "JetBrains Mono Variable"
+  },
+  "type": {
+    "display": {
+      "size": "40px",
+      "lineHeight": "48px",
+      "weight": 600,
+      "tracking": "-0.02em"
+    },
+    "title1": {
+      "size": "20px",
+      "lineHeight": "28px",
+      "weight": 600,
+      "tracking": "-0.01em"
+    },
+    "title2": {
+      "size": "16px",
+      "lineHeight": "24px",
+      "weight": 600,
+      "tracking": "-0.005em"
+    },
+    "kpi": {
+      "size": "28px",
+      "lineHeight": "36px",
+      "weight": 600,
+      "tracking": "-0.015em"
+    },
+    "heading": {
+      "size": "14px",
+      "lineHeight": "20px",
+      "weight": 600,
+      "tracking": "0"
+    },
+    "body": {
+      "size": "13px",
+      "lineHeight": "20px",
+      "weight": 400,
+      "tracking": "0"
+    },
+    "label": {
+      "size": "12px",
+      "lineHeight": "16px",
+      "weight": 500,
+      "tracking": "0"
+    },
+    "caption": {
+      "size": "11px",
+      "lineHeight": "16px",
+      "weight": 500,
+      "tracking": "0.01em"
+    },
+    "overline": {
+      "size": "11px",
+      "lineHeight": "16px",
+      "weight": 600,
+      "tracking": "0.06em"
+    },
+    "code": {
+      "size": "13px",
+      "lineHeight": "20px",
+      "weight": 400,
+      "tracking": "0"
+    },
+    "codeSm": {
+      "size": "12px",
+      "lineHeight": "20px",
+      "weight": 400,
+      "tracking": "0"
+    }
+  }
+}

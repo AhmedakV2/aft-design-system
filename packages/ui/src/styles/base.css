@@ -1,0 +1,29 @@
+@import "@fontsource-variable/inter/wght.css";
+@import "@fontsource-variable/jetbrains-mono/wght.css";
+@import "../../../tokens/generated/tokens.css";
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  font-family: var(--font-sans);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-line);
+  color: var(--text-primary);
+  background: var(--bg-canvas);
+  font-feature-settings: "cv11", "ss01";
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  cursor: default;
+}
+code, pre, kbd, .mono { font-family: var(--font-mono); font-feature-settings: "calt" 0; }
+.tnum { font-variant-numeric: tabular-nums; }
+.selectable { user-select: text; }
+:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+a { color: var(--text-link); }
+.titlebar { -webkit-app-region: drag; }
+.titlebar button, .titlebar input, .titlebar [role="button"] { -webkit-app-region: no-drag; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--border-default); border: 2px solid transparent; border-radius: var(--radius-full); background-clip: padding-box; }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { background: transparent; }
+@media (forced-colors: active) { * { background-image: none !important; } :focus-visible { outline-color: Highlight; } }

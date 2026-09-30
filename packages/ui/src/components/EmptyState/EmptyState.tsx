@@ -1,0 +1,2 @@
+import type { ReactNode } from "react"; import styles from "./EmptyState.module.css";
+export function EmptyState({icon,title,description,action}:{icon:ReactNode;title:string;description:string;action?:ReactNode}){return <div className={styles.root}>{icon}<div className={styles.title}>{title}</div><div className={styles.description}>{description}</div>{action&&<div className={styles.action}>{action}</div>}</div>}

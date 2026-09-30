@@ -1,0 +1,54 @@
+{
+  "bg": {
+    "canvas": "{graphite.50}",
+    "surface": "{graphite.0}",
+    "raised": "{graphite.0}",
+    "overlay": "{graphite.0}",
+    "sunken": "#F0F1F4",
+    "hover": "rgba(20,22,26,0.04)",
+    "pressed": "rgba(20,22,26,0.07)",
+    "selected": "rgba(194,65,12,0.10)"
+  },
+  "border": {
+    "subtle": "{graphite.100}",
+    "default": "{graphite.200}",
+    "strong": "{graphite.400}"
+  },
+  "text": {
+    "primary": "#14161A",
+    "secondary": "{graphite.600}",
+    "tertiary": "#666D7A",
+    "disabled": "#A3A9B4",
+    "link": "{blue.700}"
+  },
+  "focus": {
+    "ring": "{brand.700}"
+  },
+  "action": {
+    "primary": {
+      "bg": "{brand.700}",
+      "hover": "{brand.800}",
+      "pressed": "{brand.900}",
+      "fg": "#FFFFFF"
+    }
+  },
+  "status": {
+    "success": "{green.700}",
+    "warning": "{amber.700}",
+    "danger": "{red.600}",
+    "info": "{blue.700}"
+  },
+  "ai": {
+    "fg": "{violet.700}"
+  },
+  "record": {
+    "bg": "{red.record}",
+    "dot": "{red.recordDot}"
+  },
+  "chart": {
+    "pass": "#1E9E63",
+    "fail": "#E5484D",
+    "error": "#F5A524",
+    "cancel": "#9AA1AD"
+  }
+}

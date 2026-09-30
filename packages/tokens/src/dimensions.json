@@ -1,0 +1,46 @@
+{
+  "space": {
+    "0.5": "2px",
+    "1": "4px",
+    "1.5": "6px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "16": "64px"
+  },
+  "radius": {
+    "xs": "4px",
+    "sm": "5px",
+    "md": "6px",
+    "lg": "8px",
+    "xl": "12px",
+    "full": "999px"
+  },
+  "size": {
+    "titlebar": "40px",
+    "activityRail": "48px",
+    "listPane": "264px",
+    "pageHeader": "56px",
+    "tabs": "36px",
+    "stepRow": "44px",
+    "tableRow": "36px",
+    "tableRowCompact": "28px",
+    "inspector": "372px",
+    "statusbar": "24px"
+  },
+  "z": {
+    "base": 0,
+    "sticky": 10,
+    "drawer": 100,
+    "dropdown": 200,
+    "dialog": 300,
+    "toast": 400,
+    "tooltip": 500,
+    "inspect": 1000
+  }
+}

@@ -1,0 +1,3 @@
+import type { ComponentType } from "react"; import styles from "./ActivityRail.module.css";
+export type RailItem={id:string;label:string;icon:ComponentType<{size?:number}>};
+export function ActivityRail({items,active,onChange}:{items:RailItem[];active:string;onChange?:(id:string)=>void}){return <nav className={styles.root} aria-label="Ana gezinme">{items.map(i=>{const Icon=i.icon;return <button key={i.id} className={styles.item} data-active={active===i.id||undefined} aria-current={active===i.id?"page":undefined} aria-label={i.label} title={i.label} onClick={()=>onChange?.(i.id)}><Icon size={20}/></button>})}</nav>}

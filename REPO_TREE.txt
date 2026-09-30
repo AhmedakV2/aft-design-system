@@ -1,0 +1,177 @@
+aft-design-system/
+├── .github
+│   ├── workflows
+│   │   └── quality.yml
+│   └── pull_request_template.md
+├── docs
+│   ├── current
+│   │   ├── 00-governance.md
+│   │   ├── 01-product-vision.md
+│   │   ├── 02-information-architecture.md
+│   │   ├── 03-design-principles.md
+│   │   ├── 04-brand-language.md
+│   │   ├── 05-foundations.md
+│   │   ├── 06-component-model.md
+│   │   ├── 07-module-contracts.md
+│   │   ├── 08-platform-strategy.md
+│   │   ├── 09-quality-gates.md
+│   │   └── 10-migration-strategy.md
+│   ├── decisions
+│   │   ├── ADR-0001-brand-orange.md
+│   │   ├── ADR-0002-agent-context-panel.md
+│   │   ├── ADR-0003-platform-95-5.md
+│   │   ├── ADR-0004-system-surfaces.md
+│   │   └── ADR-0005-token-source-of-truth.md
+│   ├── migration
+│   │   └── LEGACY_SCREEN_MAP.md
+│   ├── quality
+│   │   └── UI_DEFINITION_OF_DONE.md
+│   ├── source-spec
+│   │   ├── 01-giris-ve-kapsam.md
+│   │   ├── 02-mevcut-arayuzun-analizi.md
+│   │   ├── 03-bilgi-mimarisi.md
+│   │   ├── 04-marka-ozu.md
+│   │   ├── 05-tasarim-ilkeleri.md
+│   │   ├── 06-evrensel-ui-stratejisi.md
+│   │   ├── 07-renk-sistemi.md
+│   │   ├── 08-tipografi.md
+│   │   ├── 09-yerlesim-grid-ve-bosluk.md
+│   │   ├── 10-sekil-cizgi-ve-derinlik.md
+│   │   ├── 11-ikonografi.md
+│   │   ├── 12-hareket-motion.md
+│   │   ├── 13-bilesen-kutuphanesi.md
+│   │   ├── 14-modul-tarayici-ve-kayit.md
+│   │   ├── 15-modul-senaryolar.md
+│   │   ├── 16-modul-sonuclar.md
+│   │   ├── 17-modul-istatistik.md
+│   │   ├── 18-modul-kimlik-sagligi.md
+│   │   ├── 19-modul-kapsam-ve-veri.md
+│   │   ├── 20-modul-ajan.md
+│   │   ├── 21-ux-yazimi.md
+│   │   ├── 22-erisilebilirlik.md
+│   │   ├── 23-klavye-kisayollari.md
+│   │   ├── 24-heuristik-esleme.md
+│   │   ├── 25-kalite-guvencesi.md
+│   │   ├── 26-electron-react-uygulama-rehberi.md
+│   │   ├── 27-logo-ve-uygulama-ikonu.md
+│   │   └── 28-yayin-oncesi-kontrol-listesi.md
+│   └── README.md
+├── packages
+│   ├── tokens
+│   │   ├── generated
+│   │   │   ├── tokens.css
+│   │   │   └── tokens.ts
+│   │   ├── src
+│   │   │   ├── dimensions.json
+│   │   │   ├── motion.json
+│   │   │   ├── primitives.json
+│   │   │   ├── semantic.dark.json
+│   │   │   ├── semantic.light.json
+│   │   │   └── typography.json
+│   │   ├── package.json
+│   │   └── README.md
+│   └── ui
+│       ├── .storybook
+│       │   ├── main.ts
+│       │   └── preview.ts
+│       ├── src
+│       │   ├── components
+│       │   │   ├── ActivityRail
+│       │   │   │   ├── ActivityRail.module.css
+│       │   │   │   └── ActivityRail.tsx
+│       │   │   ├── Button
+│       │   │   │   ├── Button.module.css
+│       │   │   │   ├── Button.stories.tsx
+│       │   │   │   └── Button.tsx
+│       │   │   ├── CommandBar
+│       │   │   │   ├── CommandBar.module.css
+│       │   │   │   └── CommandBar.tsx
+│       │   │   ├── EmptyState
+│       │   │   │   ├── EmptyState.module.css
+│       │   │   │   └── EmptyState.tsx
+│       │   │   ├── Inspector
+│       │   │   │   ├── Inspector.module.css
+│       │   │   │   └── Inspector.tsx
+│       │   │   ├── QualityMeter
+│       │   │   │   ├── QualityMeter.module.css
+│       │   │   │   ├── QualityMeter.stories.tsx
+│       │   │   │   └── QualityMeter.tsx
+│       │   │   ├── StatusBadge
+│       │   │   │   ├── StatusBadge.module.css
+│       │   │   │   └── StatusBadge.tsx
+│       │   │   ├── StatusBar
+│       │   │   │   ├── StatusBar.module.css
+│       │   │   │   └── StatusBar.tsx
+│       │   │   └── WorkspaceShell
+│       │   │       ├── WorkspaceShell.module.css
+│       │   │       ├── WorkspaceShell.stories.tsx
+│       │   │       └── WorkspaceShell.tsx
+│       │   ├── styles
+│       │   │   ├── base.css
+│       │   │   └── index.css
+│       │   └── index.ts
+│       ├── COMPONENT_REGISTRY.md
+│       ├── package.json
+│       └── tsconfig.json
+├── references
+│   ├── agent
+│   │   └── .gitkeep
+│   ├── analytics
+│   │   └── .gitkeep
+│   ├── app-shell
+│   │   └── .gitkeep
+│   ├── browser-recorder
+│   │   └── .gitkeep
+│   ├── empty-states
+│   │   └── .gitkeep
+│   ├── inspector
+│   │   └── .gitkeep
+│   ├── motion
+│   │   └── .gitkeep
+│   ├── settings
+│   │   └── .gitkeep
+│   ├── tables
+│   │   └── .gitkeep
+│   ├── workspace
+│   │   └── .gitkeep
+│   └── README.md
+├── scripts
+│   ├── build-tokens.mjs
+│   ├── check-contrast.mjs
+│   └── validate-design-rules.mjs
+├── source
+│   ├── assets
+│   │   ├── 0aeecb268c54805991e65d64f135728fb85e8e99.png
+│   │   ├── 14550060ee89ee23282b6208e156423b0f939d38.png
+│   │   ├── 1f24bf9d845a293ea97e55de40c2daf02d94d80c.png
+│   │   ├── 25231ac0ff57f8cff930dbc41d6bcc0dccc8c96a.png
+│   │   ├── 331f5eebce97c6e553e2eee4bbafe4dddf7e8b8c.png
+│   │   ├── 3836e8a1a6b8930edf63ceeacf75cb49b61016a8.png
+│   │   ├── 3a066fa4249135be85c1fc6a03e7741cec26c9ae.png
+│   │   ├── 46dc6097c97a4d10d6167b070a8fcec27b3973a4.png
+│   │   ├── 5fcd599ddd5622e60bd56c5be236f468c0e2f285.png
+│   │   ├── 6905cc2ce13d610a8853872b9906f3873ce766bd.png
+│   │   ├── 7329a8d50e246749697ec8dae067ee59f938627b.png
+│   │   ├── 8b7b3b2494ef4ab763a213249617737b483531c5.png
+│   │   ├── a02d0d219ca21df1e337e706676eac9df8e18b8f.png
+│   │   ├── ad3d8feb6bf19df599a1e9815375925c632c151f.png
+│   │   ├── b5cf9dab573d7a578f7312c67610ec56a692084b.png
+│   │   └── c3eb513a5346c5b2cec07aefeca6da30ed16fa83.png
+│   └── AFT_Tasarim_Sistemi_v1.docx
+├── templates
+│   ├── CLAUDE_REDESIGN_PROMPT.md
+│   ├── PR_UI_REVIEW_TEMPLATE.md
+│   ├── REFERENCE_NOTE_TEMPLATE.md
+│   ├── SCREEN_MAPPING_TEMPLATE.md
+│   └── UX_AUDIT_TEMPLATE.md
+├── .editorconfig
+├── .gitignore
+├── .prettierrc.json
+├── AGENTS.md
+├── CHANGELOG.md
+├── CLAUDE.md
+├── CONTRIBUTING.md
+├── package.json
+├── pnpm-workspace.yaml
+├── README.md
+└── tsconfig.base.json
